@@ -12,17 +12,6 @@ export default function OurProducts() {
           {data.out_products_info}
         </p>
       </div>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/z4Dlc8PH5fg?si=U8iztm98r3vzfWZc&amp;controls=0"
-        title="YouTube video player"
-        frameBorder="0"
-        className="mx-auto mb-8 w-auto md:w-[560px] h-auto md:h-[315px] rounded-lg shadow-lg hidden"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      ></iframe>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="card-container">
           <h3 className="text-xl font-semibold mb-4 text-corporate-700">
