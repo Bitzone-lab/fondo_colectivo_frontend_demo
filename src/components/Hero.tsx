@@ -13,7 +13,7 @@ const Hero = () => {
     <section className="hero-section">
       <div>
         <img
-          src={`${API_URL}${hero_background?.url}`}
+          src={hero_background?.url}
           alt={hero_background?.alternativeText}
           className="absolute inset-0 object-cover w-full h-full opacity-50"
         />
